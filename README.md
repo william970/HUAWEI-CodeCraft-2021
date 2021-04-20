@@ -13,6 +13,8 @@
 这个比赛，能优化的地方一共就三个地方，一个是购买服务器的策略，还有一个是插入虚拟机到服务器的策略，最后是迁移策略
 ## 代码结构
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2021042014175162.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zODYxNjAxOA==,size_16,color_FFFFFF,t_70)
+
+
 这个是整体的代码结构，最后因为编译问题，全部整合到了一个cpp里面，这样看着清晰一点
 
  - GlobalMessage：单例模式，这里面存放了所有全局的信息，读进来的信息以及根据该信息做解析之后的信息都存放在这里
